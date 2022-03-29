@@ -1,0 +1,174 @@
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.form {
+  background-color: #fff;
+  max-width: 450px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 20px 0 30px 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  margin: 10px 0 20px 0;
+  font-weight: normal;
+}
+
+.form-control {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.form-control > input {
+  width: 80%;
+  height: 18px;
+  padding: 8px 14px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.form-control > input:focus {
+  outline: none;
+}
+
+.form-control > button {
+  width: 100px;
+  color: #eee;
+  background-color: #528eff;
+  border: 0;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.form-control > button:hover {
+  cursor: pointer;
+  background-color: #80acff;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 100px auto;
+  width: 80%;
+  text-align: left;
+  margin: 12px auto;
+  align-items: center;
+}
+
+.form-group input[type='text'] {
+  padding: 8px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.status-text {
+  margin: 0;
+  margin-bottom: -10px;
+  /*color: #1e8c0d; 
+  color: #870b0b;*/
+}
+
+.form-group input[type='text']:focus {
+  outline: none;
+}
+
+.task {
+  width: 450px;
+  margin: 30px auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 100px auto;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.task:hover {
+  box-shadow: 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task > p {
+  font-size: 18px;
+}
+
+.tool-group > button {
+  margin: 0 5px;
+  color: #eee;
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tool-group > button:hover {
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #52c24a;
+}
+
+.edit-btn:hover {
+  background-color: #7ce774;
+}
+
+.delete-btn {
+  background-color: #c44f37;
+}
+
+.delete-btn:hover {
+  background-color: #f0775f;
+}
+
+.edit-btn,
+.delete-btn {
+  transition: background-color 0.3s ease;
+}
+
+.edit-submit {
+  width: 360px;
+  margin: 8px 0 12px 0;
+  color: #eee;
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #528eff;
+  transition: background-color 0.3s ease;
+}
+
+.home-btn {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 240px;
+  color: #eee;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #46494e;
+  transition: background-color 0.3s ease;
+}
+
+.edit-submit:hover,
+.home-btn:hover {
+  cursor: pointer;
+}
+
+.edit-submit:hover {
+  background-color: #80acff;
+}
+
+.home-btn:hover {
+  background-color: #6a6d72;
+}
